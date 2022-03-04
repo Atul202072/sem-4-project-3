@@ -19,7 +19,7 @@ class Power                                          //creating power class
     { 
         int result=0;
         Power pow;                                   // creating pow variable of power data-type
-        result=pow.power(2,4);                       // function call 
+        result=pow.power(2,4);                       // function call by passing 2 parameters
         cout<<result;
         return 0;   
     }
