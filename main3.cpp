@@ -19,8 +19,8 @@ class Power                                          //creating power class
     { 
         int result=0;
         Power pow;                                   // creating pow variable of power data-type
-        result=pow.power(2,4);                       // function call by passing 2 parameters
-        cout<<"The result of 2^4 is: "<<result;
+        result=pow.power(5);                         // function call by passing 1 parameters and using default parameter
+        cout<<"The sqaure of 5 is: "<<result;
         return 0;   
     }
 
