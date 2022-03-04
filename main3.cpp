@@ -1,13 +1,13 @@
 # include <iostream>
 using namespace std;
 
-class Power
+class Power                                          //creating power class
 {
     public:
-    int power(double m,int n=2)
+    int power(double m,int n=2)                      //function definition and setting default value of n =2
     {
         int i, ans=1;
-        for(i=1;i<=n;i++)
+        for(i=1;i<=n;i++)                            //calculation part 
        {
            ans=ans*m;
        }
@@ -18,8 +18,8 @@ class Power
     int main()
     { 
         int result=0;
-        Power pow;
-        result=pow.power(2,4);
+        Power pow;                                   // creating pow variable of power data-type
+        result=pow.power(2,4);                       // function call 
         cout<<result;
         return 0;   
     }
